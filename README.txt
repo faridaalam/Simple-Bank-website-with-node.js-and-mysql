@@ -49,7 +49,7 @@ Password validation: User passwords are validated to meet OWASP requirments usin
 Backend:
 
 In backend Nodejs express is used to handle the requests. all GET requests are handled by sending the requested file. All POST request data are first processed with body-parser and express-XML-bodyparser. 
-Registered users can use /login to sign in. username and password is checked against mongoose data base. If credentials are valid, a session will be created and user will be redirected to /profile.
+Registered users can use /login to sign in. username and password is checked against mysql data base. If credentials are valid, a session will be created and user will be redirected to /profile.
 
 Database:
 mysql database is used. Database contains two tables. First one is users that holds user informations. Second one is accounts that holds account informations.
