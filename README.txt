@@ -1,6 +1,6 @@
 # Assignment 3 - Web Security #
 Student: Farid Aalam
-CWID: 888821154
+
 
 To run type the following command in a terminal:
 $ nodejs app.js
